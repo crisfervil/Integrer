@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**",
+        "!examples.ts"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "files": [
+        "DataTable.ts",
+        "Integrator.ts",
+        "Task.ts",
+        "test/Integrator.ts",
+        "typings/browser.d.ts",
+        "typings/browser/ambient/mocha/mocha.d.ts",
+        "typings/browser/ambient/node/node.d.ts",
+        "typings/main.d.ts",
+        "typings/main/ambient/mocha/mocha.d.ts",
+        "typings/main/ambient/node/node.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "integrer",
+  "version": "0.0.1",
+  "description": "Integrer is a tool for integrate different data sources using Node",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover node_modules\\mocha\\bin\\_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisfervil/Integrer.git"
+  },
+  "keywords": [
+    "integration",
+    "integrate",
+    "data",
+    "dynamics",
+    "crm",
+    "xrm",
+    "sql"
+  ],
+  "author": {
+    "name": "Cristhian Fernandez",
+    "url": "https://github.com/crisfervil"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crisfervil/Integrer/issues"
+  },
+  "homepage": "https://github.com/crisfervil/Integrer#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "typings": "^0.6.8"
+  }
+}
